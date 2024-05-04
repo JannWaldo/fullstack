@@ -1,6 +1,7 @@
 import express from 'express'
 import conectar, {pool} from './database.js';
 import servicioPersonas from './services.js'
+import cors from 'cors';
 
 const app = express();
 //Middleware
